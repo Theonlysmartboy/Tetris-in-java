@@ -5,7 +5,6 @@ import java.awt.BorderLayout;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-
 public class Tetris extends JFrame {
 
     JLabel statusbar;
@@ -21,11 +20,11 @@ public class Tetris extends JFrame {
         setSize(200, 400);
         setTitle("Tetris");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-   }
+    }
 
-   public JLabel getStatusBar() {
-       return statusbar;
-   }
+    public JLabel getStatusBar() {
+        return statusbar;
+    }
 
     public static void main(String[] args) {
 
@@ -33,5 +32,5 @@ public class Tetris extends JFrame {
         game.setLocationRelativeTo(null);
         game.setVisible(true);
 
-    } 
+    }
 }
